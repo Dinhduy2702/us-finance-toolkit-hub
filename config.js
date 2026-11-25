@@ -136,6 +136,20 @@ window.HUB_CONFIG = {
         "Wait-vs-Sell Reverse: exact max price drop absorbed while waiting for Day 366"
       ],
       url: "https://dinhduy2702.github.io/us-capgain-tax-calculator/"
+    },
+    {
+      id: "homemath",
+      badge: "3 Tools · 2026 Mortgage & Refi",
+      category: "web",
+      tags: "mortgage calculator pmi auto drop 80% ltv property tax 50 states rent vs buy s&p 500 refinance break even extra payment",
+      title: "HomeMath US — 2026 Mortgage, PMI Auto-Drop & Rent vs. Buy",
+      summary: "True all-in monthly mortgage cost with 50-state property taxes, PMI auto-drop at 80% LTV & 30-yr SVG chart, Rent vs. Buy vs. S&P 500 brutal math, and Refinance break-even.",
+      highlights: [
+        "All-in PITI + 50-state property tax + PMI that automatically terminates at 80% LTV",
+        "Rent vs. Buy brutal math: 5/10/30-yr Net Worth vs. S&P 500 + Break-Even Year",
+        "3-way Refinance Break-Even & Extra Monthly Principal payoff simulator"
+      ],
+      url: "https://dinhduy2702.github.io/us-mortgage-rent-vs-buy-calculator/"
     }
   ],
   sheetsOs: [
