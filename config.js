@@ -122,6 +122,20 @@ window.HUB_CONFIG = {
         "State-to-state relocation & counter-offer negotiation script generator"
       ],
       url: "https://dinhduy2702.github.io/us-equity-offer-calculator/"
+    },
+    {
+      id: "capgain",
+      badge: "3 Tools · 2026 IRS & 1031",
+      category: "web",
+      tags: "capital gains tax stocks crypto real estate niit 3.8% tax loss harvesting section 121 1031 exchange short term long term",
+      title: "CapGain US — Stocks, Crypto & Real Estate Capital Gains Tax",
+      summary: "Calculate 2026 Short-Term vs. Long-Term capital gains (0%/15%/20%), 3.8% NIIT surtax, 50-state taxes, Tax-Loss Harvesting, Section 121 ($250k/$500k), 1031 Exchange, and Wait-vs-Sell breakeven drop.",
+      highlights: [
+        "Stocks & Crypto LTCG vs. STCG + 3.8% NIIT + 50 States + Tax-Loss Harvesting",
+        "Real Estate Section 121 ($250k/$500k), 25% Depreciation Recapture & 1031 Exchange",
+        "Wait-vs-Sell Reverse: exact max price drop absorbed while waiting for Day 366"
+      ],
+      url: "https://dinhduy2702.github.io/us-capgain-tax-calculator/"
     }
   ],
   sheetsOs: [
