@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US SmartMoney Hub: Free 2026 US Tax, Debt, S-Corp, Real Estate &amp; FIRE Toolkit</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230F766E'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-weight='700' font-size='34' fill='%23FFFFFF'%3E$%3C/text%3E%3C/svg%3E">
+  <meta name="description" content="One free US personal finance hub: 5 interactive 2026 web calculator suites (17+ tools), 4 automated Google Sheets Operating Systems, and 3 free Edge/Firefox extensions. Zero paywalls, zero signups.">
+  <meta property="og:title" content="US SmartMoney Hub — 2026 Free US Finance &amp; Wealth Toolkit">
+  <meta property="og:description" content="50-State Paycheck Tax, Debt Snowball &amp; 0% Transfer, LLC vs. S-Corp, Rental/BRRRR, FIRE &amp; 5-Year Roth Ladder — all in one free hub.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-link" href="#top">
+        <span class="brand-badge" aria-hidden="true">$</span>
+        <span style="min-width:0;">
+          <span class="brand-title" id="brandNameText">US SmartMoney Hub</span>
+          <span class="brand-sub" id="brandSubText">2026 Free US Calculators, Sheets OS &amp; Extensions</span>
+        </span>
+      </a>
+
+      <div class="header-meta">
+        <span class="trust-pill hide-xs">17+ Free Tools · Zero Paywalls</span>
+        <button type="button" class="btn btn-sm" id="themeToggleBtn" aria-label="Switch color theme">Dark Mode</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="top">
+    <!-- EDITORIAL HERO + SEARCH & FILTER -->
+    <section class="hub-hero">
+      <div class="hub-hero-copy">
+        <span class="offer-badge">Official Toolkit for US Earners, Investors &amp; Solopreneurs</span>
+        <h1 class="page-title">Every 2026 US Money Calculator &amp; Wealth System — Free in One Place</h1>
+        <p class="page-desc">
+          Decision-grade interactive tools built to replace $100–$390/yr paywalled planners: 50-state paycheck taxes, credit card payoff, LLC vs. S-Corp, Rental/BRRRR underwriting, and 5-Year Roth Conversion Ladders.
+        </p>
+      </div>
+
+      <div class="hub-controls">
+        <input class="input-box" type="search" id="hubSearchInput" placeholder="Search tools (e.g., S-Corp, BRRRR, 50-state, Roth ladder, Sheets...)" aria-label="Search tools">
+        <div class="filter-pills" role="tablist" aria-label="Filter toolkit category">
+          <button type="button" class="filter-pill" role="tab" aria-selected="true" data-filter="all">All (12)</button>
+          <button type="button" class="filter-pill" role="tab" aria-selected="false" data-filter="web">Web Calculators (5)</button>
+          <button type="button" class="filter-pill" role="tab" aria-selected="false" data-filter="sheets">Google Sheets OS (4)</button>
+          <button type="button" class="filter-pill" role="tab" aria-selected="false" data-filter="extensions">Extensions (3)</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5-SECOND DECISION FINDER -->
+    <section class="finder-section" aria-label="Quick decision finder">
+      <div class="section-head">
+        <h2>Start Here: Pick Your Exact Money Goal</h2>
+        <span class="section-meta">1-Click Deep Links</span>
+      </div>
+      <div class="finder-grid" id="finderGrid"></div>
+    </section>
+
+    <!-- SECTION 1: 5 FREE INTERACTIVE WEB CALCULATOR SUITES -->
+    <section class="hub-section" id="sec-web" data-sec="web">
+      <div class="section-head">
+        <div>
+          <h2>1. Five Free Interactive US Web Calculators (17+ Tools)</h2>
+          <p class="section-sub">Run locally in your browser with auto-save, Share Link URLs, CSV export, and clean PDF reports — $0 forever.</p>
+        </div>
+      </div>
+      <div class="cards-grid" id="webToolsGrid"></div>
+    </section>
+
+    <!-- SECTION 2: 4 AUTOMATED 2026 GOOGLE SHEETS OS -->
+    <section class="hub-section" id="sec-sheets" data-sec="sheets">
+      <div class="section-head">
+        <div>
+          <h2>2. Four Automated 2026 Google Sheets Operating Systems</h2>
+          <p class="section-sub">Pair any calculator above with a permanent, zero-subscription Google Sheets tracker inside your own Drive.</p>
+        </div>
+      </div>
+      <div class="cards-grid cards-grid-2" id="sheetsGrid"></div>
+    </section>
+
+    <!-- SECTION 3: 3 FREE BROWSER EXTENSIONS -->
+    <section class="hub-section" id="sec-extensions" data-sec="extensions">
+      <div class="section-head">
+        <div>
+          <h2>3. Three Free Edge &amp; Firefox Browser Extensions</h2>
+          <p class="section-sub">Lightweight, privacy-first browser helpers for clipping financial tables, spotting outlier videos, and tracking recurring bills.</p>
+        </div>
+      </div>
+      <div class="cards-grid" id="extensionsGrid"></div>
+    </section>
+
+    <div class="empty-state" id="emptyStateBox" hidden>
+      No matching tools found for that search. <button type="button" class="btn btn-sm" id="clearSearchBtn">Reset Filter</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <strong>Educational Disclaimer:</strong> All US SmartMoney Hub web calculators, templates, and tools are provided for educational and personal planning purposes only and do not constitute certified tax, legal, or investment advice. Tax numbers reflect 2026 IRS thresholds and brackets.
+    </div>
+  </footer>
+
+  <dialog class="wealth-modal" id="previewModal" aria-labelledby="previewModalTitle">
+    <div class="wealth-modal-head">
+      <div>
+        <span class="offer-badge" id="previewModalBadge">Preview</span>
+        <h2 id="previewModalTitle">Module Preview</h2>
+      </div>
+      <button type="button" class="btn btn-sm" id="closeModalBtn" aria-label="Close preview">Close</button>
+    </div>
+    <p class="wealth-modal-desc" id="previewModalDesc"></p>
+    <ul class="wealth-modal-list" id="previewModalList"></ul>
+    <div class="wealth-modal-actions">
+      <a class="btn btn-primary btn-sm" id="previewModalOpenCalc" href="https://dinhduy2702.github.io/us-smart-money-calculators/" target="_blank" rel="noopener noreferrer">Open Free Web Calculator</a>
+      <button type="button" class="btn btn-sm" id="modalCloseFooterBtn">Back to Hub</button>
+    </div>
+  </dialog>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
