@@ -50,7 +50,7 @@
     $("sheetsGrid").innerHTML = CFG.sheetsOs.map((s, idx) => {
       const hasUrl = Boolean(s.url && s.url.trim());
       const action = hasUrl
-        ? `<a class="btn btn-primary btn-sm" href="${s.url}" target="_blank" rel="noopener noreferrer">Get on Gumroad &rarr;</a>`
+        ? `<a class="btn btn-primary btn-sm" href="${s.url}" target="_blank" rel="noopener noreferrer">${s.ctaLabel || "Get on Gumroad &rarr;"}</a>`
         : `<button type="button" class="btn btn-primary btn-sm" data-preview-type="sheets" data-preview-idx="${idx}">Preview Inside (Free Lite)</button>`;
       return `
         <article class="hub-card" data-cat="sheets" data-search="${(s.title + " " + s.summary + " " + s.tags).toLowerCase()}">
@@ -68,7 +68,7 @@
     $("extensionsGrid").innerHTML = CFG.extensions.map((e, idx) => {
       const hasUrl = Boolean(e.url && e.url.trim());
       const action = hasUrl
-        ? `<a class="btn btn-primary btn-sm" href="${e.url}" target="_blank" rel="noopener noreferrer">Install Free Extension &rarr;</a>`
+        ? `<a class="btn btn-primary btn-sm" href="${e.url}" target="_blank" rel="noopener noreferrer">${e.ctaLabel || "Get Pro ($15) &rarr;"}</a>`
         : `<button type="button" class="btn btn-sm" data-preview-type="ext" data-preview-idx="${idx}">View Features &amp; Setup</button>`;
       return `
         <article class="hub-card" data-cat="extensions" data-search="${(e.title + " " + e.summary + " " + e.tags).toLowerCase()}">
@@ -82,6 +82,22 @@
         </article>
       `;
     }).join("");
+
+    if ($("bundlesGrid") && CFG.bundles) {
+      $("bundlesGrid").innerHTML = CFG.bundles.map((b) => `
+        <article class="hub-card" data-cat="bundles" data-search="${(b.title + " " + b.summary + " " + b.tags).toLowerCase()}">
+          <div>
+            <span class="offer-badge">${b.badge}</span>
+            <h3>${b.title}</h3>
+            <p>${b.summary}</p>
+            <ul class="hub-bullets">${b.modules.map((m) => `<li>${m}</li>`).join("")}</ul>
+          </div>
+          <div class="hub-card-actions">
+            <a class="btn btn-primary btn-sm" href="${b.url}" target="_blank" rel="noopener noreferrer">${b.ctaLabel || "Get Bundle &rarr;"}</a>
+          </div>
+        </article>
+      `).join("");
+    }
 
     document.querySelectorAll("[data-preview-type]").forEach((btn) => {
       btn.addEventListener("click", () => {

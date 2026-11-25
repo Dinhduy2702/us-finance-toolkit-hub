@@ -9,7 +9,7 @@ window.HUB_CONFIG = {
   },
   youtubeLedger: {
     label: "Watch The Ledger on YouTube",
-    url: "" // AGY 3 dien link kenh YouTube The Ledger khi tao xong
+    url: "https://www.youtube.com/@TheLedgerCapital"
   },
   decisionFinder: [
     {
@@ -141,12 +141,13 @@ window.HUB_CONFIG = {
   sheetsOs: [
     {
       id: "os-wealth",
-      badge: "Google Sheets · Free Lite + Pro",
+      badge: "Google Sheets · $0 Lite / $19 Full",
       category: "sheets",
-      tags: "personal finance wealth budget net worth fire 50/30/20 google sheets",
+      tags: "personal finance wealth budget net worth fire 50/30/20 google sheets gumroad",
       title: "US Personal Finance & Wealth OS (2026 Edition)",
-      summary: "All-in-one 50/30/20 paycheck budget, monthly debt snowball tracker, live FIRE countdown, and automated net worth dashboard in Google Sheets.",
-      url: "", // AGY 5 dien link Gumroad SP #2 khi xong
+      summary: "All-in-one 50/30/20 paycheck budget, monthly debt snowball tracker, live FIRE countdown, and automated net worth dashboard in Google Sheets + Apps Script.",
+      ctaLabel: "Get Free Lite / $19 Full &rarr;",
+      url: "https://897833387907.gumroad.com/l/us-personal-finance-wealth-os-2026",
       modules: [
         "50-State Paycheck & 50/30/20 Monthly Cash-Flow Allocator",
         "Automated Debt Snowball & Avalanche Payoff Rollover Tracker",
@@ -156,12 +157,13 @@ window.HUB_CONFIG = {
     },
     {
       id: "os-freelance",
-      badge: "Google Sheets · 1099 & S-Corp",
+      badge: "Google Sheets · $0 Lite / $24 Full",
       category: "sheets",
-      tags: "freelancer 1099 tax os schedule c quarterly irs s-corp bookkeeping",
-      title: "US Freelancer 1099 & S-Corp Tax OS (2026 Edition)",
-      summary: "Schedule C expense ledger, $0.70/mi business mileage log, IRS 1040-ES quarterly tax vault, and S-Corp break-even profit monitor.",
-      url: "", // AGY 5 dien link Gumroad SP #4 khi xong
+      tags: "freelancer 1099 tax os schedule c quarterly irs s-corp bookkeeping gumroad",
+      title: "US Freelancer 1099 Tax & P&L OS (2026 Edition)",
+      summary: "Schedule C expense ledger, $0.70/mi business mileage log, IRS 1040-ES quarterly tax vault, and S-Corp break-even profit monitor + Apps Script.",
+      ctaLabel: "Get Free Lite / $24 Full &rarr;",
+      url: "https://897833387907.gumroad.com/l/us-freelancer-1099-tax-pnl-os-2026",
       modules: [
         "Client Invoice & Schedule C Business Write-Off Ledger",
         "Automated 2026 IRS 1040-ES Quarterly Tax Vault (Apr/Jun/Sep/Jan)",
@@ -171,26 +173,28 @@ window.HUB_CONFIG = {
     },
     {
       id: "os-realestate",
-      badge: "Google Sheets · Investors",
+      badge: "Google Sheets · $0 Lite / $24 Full",
       category: "sheets",
-      tags: "real estate brrrr rental property deal tracker schedule e landlord",
-      title: "US Real Estate & BRRRR Deal Tracker OS (2026 Edition)",
-      summary: "Compare up to 20 rental properties side by side, track BRRRR rehab budgets, DSCR ratios, CapEx reserves, and Schedule E landlord expenses.",
-      url: "", // AGY 5 dien link Gumroad khi xong
+      tags: "real estate brrrr rental property deal tracker schedule e landlord gumroad",
+      title: "US Rental Property Schedule E & BRRRR OS (2026 Edition)",
+      summary: "Compare up to 20 rental properties side by side, track BRRRR rehab budgets, 75% LTV refi, DSCR ratios, CapEx vault, and Schedule E landlord expenses.",
+      ctaLabel: "Get Free Lite / $24 Full &rarr;",
+      url: "https://897833387907.gumroad.com/l/us-rental-property-schedule-e-brrrr-os-2026",
       modules: [
         "Multi-Property Deal Pipeline (Cap Rate, CoC, DSCR & 1% Rule Scoring)",
         "BRRRR Rehab Budget vs. Actual Variance & 75% LTV Refi Calculator",
-        "Rent Roll, Vacancy & CapEx Reserve Health Dashboard",
+        "Rent Roll, Vacancy & CapEx Reserve Vault Dashboard",
         "Tax-Ready IRS Schedule E Annual Income & Expense Summary"
       ]
     },
     {
       id: "os-youtube",
-      badge: "Google Sheets · Live on Gumroad",
+      badge: "Google Sheets · $0 Lite / $19 Full",
       category: "sheets",
-      tags: "youtube creator faceless channel empire os dashboard apps script",
+      tags: "youtube creator faceless channel empire os dashboard apps script gumroad",
       title: "YouTube & Faceless Channel Empire OS (2026 Edition)",
       summary: "Production pipeline, RPM/revenue analytics, Shorts-to-Long tracking, and automated Apps Script workflows for multi-channel creators.",
+      ctaLabel: "Get Free Lite / $19 Full &rarr;",
       url: "https://897833387907.gumroad.com/l/youtube-empire-os-2026",
       modules: [
         "Multi-Channel Production Kanban & Upload Calendar",
@@ -202,44 +206,94 @@ window.HUB_CONFIG = {
   extensions: [
     {
       id: "ext-sheetsnap",
-      badge: "Edge & Firefox · $0 Free",
+      badge: "Edge & Firefox Pro · $15 Lifetime",
       category: "extensions",
-      tags: "sheetsnap extension google sheets table clip csv export",
-      title: "SheetSnap — 1-Click Web Table to Google Sheets Clipper",
-      summary: "Capture financial tables, mortgage rate sheets, or dividend data from any webpage straight into clean CSV or Google Sheets format.",
-      url: "", // AGY 5 dien link Edge/Firefox Add-on khi duyet store
+      tags: "sheetsnap extension google sheets table clip csv export youtube transcript pro",
+      title: "SheetSnap Pro — 1-Click Web Table & YT Transcript Clipper",
+      summary: "Capture financial tables, mortgage rate sheets, or YouTube transcripts straight into clean CSV / Google Sheets with instant Gumroad License Key.",
+      ctaLabel: "Get Pro ($15 Lifetime) &rarr;",
+      url: "https://897833387907.gumroad.com/l/sheetsnap-yt-transcript-pro",
       modules: [
-        "Detects HTML tables on any financial or real estate listing page automatically",
-        "Cleans currency symbols and exports clean CSV or clipboard TSV in 1 click",
-        "100% local processing — zero tracking, zero account required"
+        "Detects HTML tables & YouTube transcripts automatically in 1 click",
+        "Cleans currency symbols and exports clean CSV or clipboard TSV instantly",
+        "100% local MV3 Edge/Firefox package — one-time $15 lifetime license"
       ]
     },
     {
       id: "ext-tubepulse",
-      badge: "Edge & Firefox · $0 Free",
+      badge: "Edge & Firefox Pro · $15 Lifetime",
       category: "extensions",
-      tags: "tubepulse extension youtube thumbnail injector mobile 390px readability hidden seo tags rpm estimator",
-      title: "TubePulse — YouTube Thumbnail Injector & 8-Niche US RPM Estimator",
-      summary: "YouTube Thumbnail Injector, Mobile 390px Readability Check, Hidden SEO Tags & 8-Niche US RPM Estimator directly inside your browser.",
-      url: "", // AGY 5 dien link Edge/Firefox Add-on khi duyet store
+      tags: "tubepulse extension youtube thumbnail injector mobile 390px readability hidden seo tags rpm estimator pro",
+      title: "TubePulse Pro — YouTube Thumbnail Injector & 8-Niche US RPM",
+      summary: "YouTube Thumbnail Injector, Mobile 390px Readability Check, Hidden SEO Tags & 8-Niche US RPM Estimator directly inside Edge & Firefox.",
+      ctaLabel: "Get Pro ($15 Lifetime) &rarr;",
+      url: "https://897833387907.gumroad.com/l/tubepulse-yt-pro",
       modules: [
         "Live YouTube Thumbnail Injector & Mobile 390px Readability Check on real feeds",
         "Extracts hidden video SEO tags and competitor keyword structures in 1 click",
-        "Built-in 8-Niche US RPM & revenue estimator for Edge and Firefox"
+        "Built-in 8-Niche US RPM & revenue estimator + $15 Lifetime License Key"
       ]
     },
     {
       id: "ext-billsnap",
-      badge: "Edge & Firefox · $0 Free",
+      badge: "Edge & Firefox Pro · $15 Lifetime",
       category: "extensions",
-      tags: "billsnap extension freelance timer toolbar badge 1099 tax vault client invoice pdf schedule c csv",
-      title: "BillSnap — Local Freelance Timer & 1099 Tax Vault",
+      tags: "billsnap extension freelance timer toolbar badge 1099 tax vault client invoice pdf schedule c csv pro",
+      title: "BillSnap Pro — Local Freelance Timer & 1099 Tax Vault",
       summary: "Local Freelance Timer, Live Toolbar Badge, Auto 1099 Tax Vault & 1-Click Client Invoice PDF / Schedule C CSV — 100% private.",
-      url: "", // AGY 5 dien link Edge/Firefox Add-on khi duyet store
+      ctaLabel: "Get Pro ($15 Lifetime) &rarr;",
+      url: "https://897833387907.gumroad.com/l/billsnap-freelance-pro",
       modules: [
         "1-click Local Freelance Timer with Live Toolbar Badge tracking active sessions",
         "Auto 1099 Tax Vault calculating quarterly set-aside amounts on every billable hour",
-        "1-Click Client Invoice PDF & Schedule C CSV export for SoloTax / Wealth OS"
+        "1-Click Client Invoice PDF & Schedule C CSV export + $15 Lifetime License Key"
+      ]
+    }
+  ],
+  bundles: [
+    {
+      id: "bundle-money-1099",
+      badge: "Save $14 · $29 Bundle",
+      category: "bundles",
+      tags: "bundle money 1099 tax personal finance wealth freelancer os save 14",
+      title: "US Money & 1099 Tax Bundle 2026 ($29)",
+      summary: "Includes FULL US Personal Finance & Wealth OS ($19) + FULL US Freelancer 1099 Tax & P&L OS ($24) — everything W-2 earners & solopreneurs need.",
+      ctaLabel: "Get Bundle ($29 · Save $14) &rarr;",
+      url: "https://897833387907.gumroad.com/l/us-money-1099-tax-bundle-2026",
+      modules: [
+        "Full US Personal Finance & Wealth OS 2026 ($19 value)",
+        "Full US Freelancer 1099 Tax & P&L OS 2026 ($24 value)",
+        "Instant Google Sheets /copy links, .xlsx backups & Apps Script automation"
+      ]
+    },
+    {
+      id: "bundle-yt-creator",
+      badge: "Save $14 · $35 Bundle",
+      category: "bundles",
+      tags: "bundle youtube creator power empire os sheetsnap tubepulse pro save 14",
+      title: "YouTube Creator Power Bundle 2026 ($35)",
+      summary: "Includes FULL YouTube Empire OS ($19) + SheetSnap Pro ($15) + TubePulse Pro ($15) with lifetime extension licenses.",
+      ctaLabel: "Get Bundle ($35 · Save $14) &rarr;",
+      url: "https://897833387907.gumroad.com/l/youtube-creator-power-bundle-2026",
+      modules: [
+        "Full YouTube & Faceless Channel Empire OS 2026 ($19 value)",
+        "SheetSnap Pro + TubePulse Pro MV3 Extensions ($30 combined value)",
+        "Zero monthly subscriptions — one-time $35 lifetime creator stack"
+      ]
+    },
+    {
+      id: "bundle-mega-39",
+      badge: "Best Value · Save $14 · $39",
+      category: "bundles",
+      tags: "mega bundle creator wealth youtube empire personal finance sheetsnap pro save 14",
+      title: "Creator & Wealth Mega-Bundle 2026 ($39)",
+      summary: "Includes FULL YouTube Empire OS ($19) + FULL US Personal Finance & Wealth OS ($19) + SheetSnap Pro ($15) — build revenue and compound wealth.",
+      ctaLabel: "Get Mega-Bundle ($39 · Save $14) &rarr;",
+      url: "https://897833387907.gumroad.com/l/creator-wealth-mega-bundle-2026",
+      modules: [
+        "Full YouTube & Faceless Channel Empire OS 2026 ($19 value)",
+        "Full US Personal Finance & Wealth OS 2026 ($19 value)",
+        "SheetSnap Pro Lifetime License ($15 value) — save $14 total"
       ]
     }
   ]
