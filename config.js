@@ -190,28 +190,28 @@ window.HUB_CONFIG = {
       id: "ext-tubepulse",
       badge: "Edge & Firefox · $0 Free",
       category: "extensions",
-      tags: "tubepulse extension youtube analytics rpm outlier score creator",
-      title: "TubePulse — YouTube Outlier & Finance Niche Analyzer",
-      summary: "Spot breakout videos, view-to-subscriber outlier ratios, and high-RPM keyword tags directly on YouTube search pages.",
+      tags: "tubepulse extension youtube thumbnail injector mobile 390px readability hidden seo tags rpm estimator",
+      title: "TubePulse — YouTube Thumbnail Injector & 8-Niche US RPM Estimator",
+      summary: "YouTube Thumbnail Injector, Mobile 390px Readability Check, Hidden SEO Tags & 8-Niche US RPM Estimator directly inside your browser.",
       url: "", // AGY 5 dien link Edge/Firefox Add-on khi duyet store
       modules: [
-        "Instant Views-to-Subscribers Outlier Score badge on every video card",
-        "1-click metadata, publish velocity & tag copy for topic research",
-        "Lightweight zero-bloat side panel for Edge and Firefox"
+        "Live YouTube Thumbnail Injector & Mobile 390px Readability Check on real feeds",
+        "Extracts hidden video SEO tags and competitor keyword structures in 1 click",
+        "Built-in 8-Niche US RPM & revenue estimator for Edge and Firefox"
       ]
     },
     {
       id: "ext-billsnap",
       badge: "Edge & Firefox · $0 Free",
       category: "extensions",
-      tags: "billsnap extension subscription bill tracker expense budget",
-      title: "BillSnap — Subscription & Recurring Bill Reminder",
-      summary: "Log recurring SaaS, credit card annual fees, and 0% APR promo end dates locally in your browser so you never get hit with surprise charges.",
+      tags: "billsnap extension freelance timer toolbar badge 1099 tax vault client invoice pdf schedule c csv",
+      title: "BillSnap — Local Freelance Timer & 1099 Tax Vault",
+      summary: "Local Freelance Timer, Live Toolbar Badge, Auto 1099 Tax Vault & 1-Click Client Invoice PDF / Schedule C CSV — 100% private.",
       url: "", // AGY 5 dien link Edge/Firefox Add-on khi duyet store
       modules: [
-        "Countdown alerts for 0% APR balance transfer deadlines & free trials",
-        "Annualized cost view showing what small monthly bills cost per year",
-        "Exports clean CSV straight into US Personal Finance & Wealth OS"
+        "1-click Local Freelance Timer with Live Toolbar Badge tracking active sessions",
+        "Auto 1099 Tax Vault calculating quarterly set-aside amounts on every billable hour",
+        "1-Click Client Invoice PDF & Schedule C CSV export for SoloTax / Wealth OS"
       ]
     }
   ]
