@@ -108,6 +108,20 @@ window.HUB_CONFIG = {
         "Year-by-year 5-Year Roth Conversion Ladder schedule with CSV export"
       ],
       url: "https://dinhduy2702.github.io/us-retiresmart-planner/"
+    },
+    {
+      id: "equityoffer",
+      badge: "3 Tools · Tech & RSU Comp",
+      category: "web",
+      tags: "job offer comparison rsu stock options vesting 22% withholding tax salary negotiation relocation",
+      title: "EquityOffer US — Job Offer, RSU Tax & Negotiation Planner",
+      summary: "Compare 2 US job offers after 50-state taxes (Base + Bonus + 4-Year RSU Vesting + 401k Match), calculate RSU 22% withholding gaps, and reverse-calculate relocation salary.",
+      highlights: [
+        "4-year side-by-side Offer A vs. Offer B after Federal, FICA & 50-State taxes",
+        "Exposes the IRS 22% RSU supplemental tax underwithholding shortfall",
+        "State-to-state relocation & counter-offer negotiation script generator"
+      ],
+      url: "https://dinhduy2702.github.io/us-equity-offer-calculator/"
     }
   ],
   sheetsOs: [
