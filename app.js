@@ -66,9 +66,18 @@
     }).join("");
 
     $("extensionsGrid").innerHTML = CFG.extensions.map((e, idx) => {
+      const hasEdge = Boolean(e.edgeUrl && e.edgeUrl.trim());
       const hasUrl = Boolean(e.url && e.url.trim());
-      const action = hasUrl
-        ? `<a class="btn btn-primary btn-sm" href="${e.url}" target="_blank" rel="noopener noreferrer">${e.ctaLabel || "Get Pro ($15) &rarr;"}</a>`
+      const buttons = [];
+      if (hasEdge) {
+        buttons.push(`<a class="btn btn-primary btn-sm" href="${e.edgeUrl}" target="_blank" rel="noopener noreferrer">${e.edgeLabel || "Install Free on Edge &rarr;"}</a>`);
+      }
+      if (hasUrl) {
+        const cls = hasEdge ? "btn btn-sm" : "btn btn-primary btn-sm";
+        buttons.push(`<a class="${cls}" href="${e.url}" target="_blank" rel="noopener noreferrer">${e.ctaLabel || "Pro License ($15) &rarr;"}</a>`);
+      }
+      const action = buttons.length
+        ? buttons.join("")
         : `<button type="button" class="btn btn-sm" data-preview-type="ext" data-preview-idx="${idx}">View Features &amp; Setup</button>`;
       return `
         <article class="hub-card" data-cat="extensions" data-search="${(e.title + " " + e.summary + " " + e.tags).toLowerCase()}">

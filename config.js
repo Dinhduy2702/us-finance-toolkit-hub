@@ -220,47 +220,53 @@ window.HUB_CONFIG = {
   extensions: [
     {
       id: "ext-sheetsnap",
-      badge: "Edge & Firefox Pro · $15 Lifetime",
+      badge: "Free on Edge Store · $15 Pro",
       category: "extensions",
-      tags: "sheetsnap extension google sheets table clip csv export youtube transcript pro",
-      title: "SheetSnap Pro — 1-Click Web Table & YT Transcript Clipper",
-      summary: "Capture financial tables, mortgage rate sheets, or YouTube transcripts straight into clean CSV / Google Sheets with instant Gumroad License Key.",
-      ctaLabel: "Get Pro ($15 Lifetime) &rarr;",
+      tags: "sheetsnap extension edge store google sheets table clip csv export youtube transcript pro",
+      title: "SheetSnap — 1-Click Web Table & YT Transcript Clipper",
+      summary: "Capture financial tables, mortgage rate sheets, or YouTube transcripts straight into clean CSV / Google Sheets. Free on Microsoft Edge Add-ons Store, optional $15 Pro lifetime license.",
+      edgeLabel: "Install Free on Edge &rarr;",
+      edgeUrl: "https://microsoftedge.microsoft.com/addons/detail/hpbkeciaohkgkjdpcfffjcedfdekfnio",
+      ctaLabel: "Pro License ($15) &rarr;",
       url: "https://897833387907.gumroad.com/l/sheetsnap-yt-transcript-pro",
       modules: [
         "Detects HTML tables & YouTube transcripts automatically in 1 click",
         "Cleans currency symbols and exports clean CSV or clipboard TSV instantly",
-        "100% local MV3 Edge/Firefox package — one-time $15 lifetime license"
+        "100% local MV3 Edge/Firefox package — Free on Edge Store · $15 Pro Lifetime"
       ]
     },
     {
       id: "ext-tubepulse",
-      badge: "Edge & Firefox Pro · $15 Lifetime",
+      badge: "Free on Edge Store · $15 Pro",
       category: "extensions",
-      tags: "tubepulse extension youtube thumbnail injector mobile 390px readability hidden seo tags rpm estimator pro",
-      title: "TubePulse Pro — YouTube Thumbnail Injector & 8-Niche US RPM",
-      summary: "YouTube Thumbnail Injector, Mobile 390px Readability Check, Hidden SEO Tags & 8-Niche US RPM Estimator directly inside Edge & Firefox.",
-      ctaLabel: "Get Pro ($15 Lifetime) &rarr;",
+      tags: "tubepulse extension edge store youtube thumbnail injector mobile 390px readability hidden seo tags rpm estimator pro",
+      title: "TubePulse — YouTube Thumbnail Injector & 8-Niche US RPM",
+      summary: "YouTube Thumbnail Injector, Mobile 390px Readability Check, Hidden SEO Tags & 8-Niche US RPM Estimator directly inside Microsoft Edge & Firefox.",
+      edgeLabel: "Install Free on Edge &rarr;",
+      edgeUrl: "https://microsoftedge.microsoft.com/addons/detail/bpcolmcmahnbcifdahpboilbhdekanfl",
+      ctaLabel: "Pro License ($15) &rarr;",
       url: "https://897833387907.gumroad.com/l/tubepulse-yt-pro",
       modules: [
         "Live YouTube Thumbnail Injector & Mobile 390px Readability Check on real feeds",
         "Extracts hidden video SEO tags and competitor keyword structures in 1 click",
-        "Built-in 8-Niche US RPM & revenue estimator + $15 Lifetime License Key"
+        "Built-in 8-Niche US RPM & revenue estimator · Free on Edge Store · $15 Pro"
       ]
     },
     {
       id: "ext-billsnap",
-      badge: "Edge & Firefox Pro · $15 Lifetime",
+      badge: "Free on Edge Store · $15 Pro",
       category: "extensions",
-      tags: "billsnap extension freelance timer toolbar badge 1099 tax vault client invoice pdf schedule c csv pro",
-      title: "BillSnap Pro — Local Freelance Timer & 1099 Tax Vault",
-      summary: "Local Freelance Timer, Live Toolbar Badge, Auto 1099 Tax Vault & 1-Click Client Invoice PDF / Schedule C CSV — 100% private.",
-      ctaLabel: "Get Pro ($15 Lifetime) &rarr;",
+      tags: "billsnap extension edge store freelance timer toolbar badge 1099 tax vault client invoice pdf schedule c csv pro",
+      title: "BillSnap — Local Freelance Timer & 1099 Tax Vault",
+      summary: "Local Freelance Timer, Live Toolbar Badge, Auto 1099 Tax Vault & 1-Click Client Invoice PDF / Schedule C CSV — 100% private in Microsoft Edge.",
+      edgeLabel: "Install Free on Edge &rarr;",
+      edgeUrl: "https://microsoftedge.microsoft.com/addons/detail/lopcoioabkocbihgmfncodgeblipagmd",
+      ctaLabel: "Pro License ($15) &rarr;",
       url: "https://897833387907.gumroad.com/l/billsnap-freelance-pro",
       modules: [
         "1-click Local Freelance Timer with Live Toolbar Badge tracking active sessions",
         "Auto 1099 Tax Vault calculating quarterly set-aside amounts on every billable hour",
-        "1-Click Client Invoice PDF & Schedule C CSV export + $15 Lifetime License Key"
+        "1-Click Client Invoice PDF & Schedule C CSV export · Free on Edge Store · $15 Pro"
       ]
     }
   ],
