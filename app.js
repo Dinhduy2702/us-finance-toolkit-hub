@@ -70,7 +70,9 @@
       const hasUrl = Boolean(e.url && e.url.trim());
       const buttons = [];
       if (hasEdge) {
-        buttons.push(`<a class="btn btn-primary btn-sm" href="${e.edgeUrl}" target="_blank" rel="noopener noreferrer">${e.edgeLabel || "Install Free on Edge &rarr;"}</a>`);
+        const sep = e.edgeUrl.includes("?") ? "&" : "?";
+        const edgeHref = `${e.edgeUrl}${sep}utm_source=us-finance-toolkit-hub&utm_medium=web&utm_campaign=hub_extensions&utm_content=${encodeURIComponent(e.id || "edge")}`;
+        buttons.push(`<a class="btn btn-primary btn-sm" href="${edgeHref}" data-edge-track="${e.id || "edge"}" target="_blank" rel="noopener noreferrer">${e.edgeLabel || "Install Free on Edge &rarr;"}</a>`);
       }
       if (hasUrl) {
         const cls = hasEdge ? "btn btn-sm" : "btn btn-primary btn-sm";
@@ -116,6 +118,23 @@
         if (item) openPreview(item);
       });
     });
+
+    if (!window.__edgeTrackBound) {
+      window.__edgeTrackBound = true;
+      document.addEventListener("click", (ev) => {
+        const a = ev.target && ev.target.closest ? ev.target.closest("a[data-edge-track]") : null;
+        if (!a) return;
+        const extId = a.getAttribute("data-edge-track") || "edge";
+        const site = (location.pathname.split("/")[1] || location.hostname || "hub").slice(0, 40);
+        if (window.goatcounter && typeof window.goatcounter.count === "function") {
+          window.goatcounter.count({
+            path: "click/" + site + "/edge-" + extId,
+            title: "Edge Store click: " + extId,
+            event: true
+          });
+        }
+      }, true);
+    }
   }
 
   function applyFilters() {
