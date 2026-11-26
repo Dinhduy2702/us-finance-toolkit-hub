@@ -232,7 +232,7 @@ window.HUB_CONFIG = {
       modules: [
         "Detects HTML tables & YouTube transcripts automatically in 1 click",
         "Cleans currency symbols and exports clean CSV or clipboard TSV instantly",
-        "100% local MV3 Edge/Firefox package — Free on Edge Store · $15 Pro Lifetime"
+        "100% local MV3 Microsoft Edge extension — Free on Edge Store · $15 Pro Lifetime"
       ]
     },
     {
@@ -241,7 +241,7 @@ window.HUB_CONFIG = {
       category: "extensions",
       tags: "tubepulse extension edge store youtube thumbnail injector mobile 390px readability hidden seo tags rpm estimator pro",
       title: "TubePulse — YouTube Thumbnail Injector & 8-Niche US RPM",
-      summary: "YouTube Thumbnail Injector, Mobile 390px Readability Check, Hidden SEO Tags & 8-Niche US RPM Estimator directly inside Microsoft Edge & Firefox.",
+      summary: "YouTube Thumbnail Injector, Mobile 390px Readability Check, Hidden SEO Tags & 8-Niche US RPM Estimator directly inside Microsoft Edge (Firefox coming soon).",
       edgeLabel: "Install Free on Edge &rarr;",
       edgeUrl: "https://microsoftedge.microsoft.com/addons/detail/bpcolmcmahnbcifdahpboilbhdekanfl",
       ctaLabel: "Pro License ($15) &rarr;",
